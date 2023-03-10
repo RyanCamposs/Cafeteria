@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.topo {
+    position: fixed;
+    height: 90px;
+    background-color: rgb(87, 72, 54);
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    z-index: index;
+
+}
+ul li  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 60px;
+
+}
+
+.topo a {
+    text-decoration: none;
+    padding: 30px;
+    font-size: 19px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(235, 203, 167);
+    text-align: center;
+}
+
+.logo {
+    margin-left: 89px;
+}
+
+/* banner 1 */
+.containerimg1{
+    background-image: url("assets/parallax-imagem1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.banner1 h1 {
+    position: absolute;
+    left: 25vw;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* -------------------------------- */
+/* Container 1 */
+.container1 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    height: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1 h2 {
+    color: rgb(163, 145, 95);
+}
+
+.container1 p {
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+    
+}
+
+/* ===================================== */
+/* Banner 2 */
+.containerimg2 {
+    background-image: url("assets/parallax-imagem2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.banner2 h3 {
+   text-align: center;
+   color: white;
+   font-size: 25px;
+   font-family: Arial;
+   margin: 0 auto;
+   position: absolute;
+   left: 40%;
+   top: 40%;
+   padding: 25px;
+   background-color:rgb(88, 59, 32)
+}
+
+/* Container 2 */
+.container2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    height: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container2 h2 {
+    color: rgb(163, 145, 95);
+}
+
+.container2 p {
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+}
+
+/* banner 3 */
+.containerimg3{
+    background-image: url("assets/parallax-imagem3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.banner3{
+    position: relative;
+}
+
+.banner3 h3 {
+    text-align: center;
+     color: white;
+    font-size: 25px;
+    font-family: Arial;
+    margin: 0 auto;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    padding: 25px;
+    background-color:rgb(88, 59, 32)
+}
+/* ========================================== */
+/* container 3 */
+.container3 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    height: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container3 h2 {
+    color: rgb(163, 145, 95);
+}
+
+.container3 p {
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+    
+}
+
+/* Container 4 */
+.container4 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    height: 430px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container4 h2 {
+    color: rgb(163, 145, 95);
+    font-size: 40px;
+    padding: 30px;
+}
+
+.container4 p {
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+    
+}
