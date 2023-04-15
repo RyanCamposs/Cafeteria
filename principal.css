@@ -1,202 +1,165 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 
-.topo {
-    position: fixed;
-    height: 90px;
-    background-color: rgb(87, 72, 54);
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    z-index: index;
-
-}
-ul li  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h3 {
     position: absolute;
-    right: 60px;
-
+    top: 50%;
+    left: 43%;
+    color: white;
+    background-color: rgb(102, 69, 32);
+    font-size: 24px;
+    padding: 10px;
+    font-style: italic;
 }
 
-.topo a {
-    text-decoration: none;
-    padding: 30px;
-    font-size: 19px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: rgb(235, 203, 167);
-    text-align: center;
+
+
+
+ /* Topo  */
+.topo {
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    position:fixed;
+    background-color:rgb(102, 69, 32);
+    z-index: 20;
 }
 
 .logo {
-    margin-left: 89px;
+    height: 80px;
 }
 
-/* banner 1 */
-.containerimg1{
-    background-image: url("assets/parallax-imagem1.png");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
+.topo ul li a {
+    padding: 20px;
+    color: rgb(185, 132, 71);
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
 }
-.banner1 h1 {
-    position: absolute;
-    left: 25vw;
-    top: 50%;
-    text-align: center;
-    color: white;
-    font-size: 55px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+a {
+    text-decoration: none;
+}
 
-}
-/* -------------------------------- */
 /* Container 1 */
 .container1 {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
-    height: 430px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.container1 h2 {
-    color: rgb(163, 145, 95);
+    width: 100%;
+    margin-top: 80px;
+    position:relative;
 }
 
-.container1 p {
-    margin: 0 auto;
-    line-height: 30px;
-    font-size: 20px;
-    color: rgb(128, 125, 125);
-    
-}
-
-/* ===================================== */
-/* Banner 2 */
-.containerimg2 {
-    background-image: url("assets/parallax-imagem2.jpg");
-    background-position: center;
+.containerimg1 {
+    background-image: url(assets/parallax-imagem1.png);
+    width: 100%;
+    position: relative;
+    height: 900px;
+    box-sizing: border-box;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
-    position: relative;
+    background-position: center;
 }
 
-.banner2 h3 {
-   text-align: center;
-   color: white;
-   font-size: 25px;
-   font-family: Arial;
-   margin: 0 auto;
-   position: absolute;
-   left: 40%;
-   top: 40%;
-   padding: 25px;
-   background-color:rgb(88, 59, 32)
-}
-
-/* Container 2 */
-.container2 {
-    width: 50%;
-    margin: 0 auto;
+.containerimg1 h1 {
     text-align: center;
-    padding-top: 50px;
-    height: 430px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 120px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 43%;
+    left: 35px;
+
 }
+/* Container1 2 */
+.container2 {
+    text-align: center;
+    height: 600px;
+    width: 50%
+}
+
 .container2 h2 {
-    color: rgb(163, 145, 95);
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color:rgb(185, 132, 71);
 }
 
 .container2 p {
-    margin: 0 auto;
-    line-height: 30px;
-    font-size: 20px;
-    color: rgb(128, 125, 125);
+    color:rgb(119, 118, 118);
+    word-spacing: 4px;
+    font-size: 19px;
 }
 
-/* banner 3 */
-.containerimg3{
-    background-image: url("assets/parallax-imagem3.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
-}
-.banner3{
+/* Container 3 */
+.container3 {
     position: relative;
 }
 
-.banner3 h3 {
-    text-align: center;
-     color: white;
-    font-size: 25px;
-    font-family: Arial;
-    margin: 0 auto;
-    position: absolute;
-    left: 40%;
-    top: 40%;
-    padding: 25px;
-    background-color:rgb(88, 59, 32)
-}
-/* ========================================== */
-/* container 3 */
-.container3 {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
-    height: 430px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.container3 h2 {
-    color: rgb(163, 145, 95);
-}
-
-.container3 p {
-    margin: 0 auto;
-    line-height: 30px;
-    font-size: 20px;
-    color: rgb(128, 125, 125);
-    
+.containerimg3 {
+    background-image: url(assets/parallax-imagem2.jpg);
+    width: 100%;
+    height: 350px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Container 4 */
+
 .container4 {
-    width: 50%;
-    margin: 0 auto;
     text-align: center;
-    padding-top: 50px;
-    height: 430px;
-    border: 1px solid black;
-    border-radius: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    width: 50%
 }
+
 .container4 h2 {
-    color: rgb(163, 145, 95);
-    font-size: 40px;
-    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color:rgb(185, 132, 71);
 }
 
 .container4 p {
-    margin: 0 auto;
-    line-height: 30px;
-    font-size: 20px;
-    color: rgb(128, 125, 125);
-    
+    color:rgb(119, 118, 118);
+    word-spacing: 4px;
+    font-size: 19px;
+}
+
+/* Container 5 */ 
+.container5 {
+    position: relative;
+}
+.containerimg5 {
+    background-image: url(assets/parallax-imagem3.jpg);
+    width: 100%;
+    height: 350px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container 6 */
+
+.container6 {
+    text-align: center;
+    height: 600px;
+    width: 50%
+}
+
+.container6 h2 {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color:rgb(185, 132, 71);
+}
+
+.container6 p {
+    color:rgb(119, 118, 118);
+    word-spacing: 4px;
+    font-size: 19px;
+}
+
+
+footer {
+    text-align: center;
 }
